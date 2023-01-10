@@ -80,11 +80,8 @@
 .services{
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
-    padding: 0 50px;
-    background-image: linear-gradient
-        (to bottom rgba(0, 0, 0, 0.66),rgba(0, 0, 0, 0.822)),
-        url(asset/image/footer-bg.png);
+    padding: 50px 20px;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.815)), url(asset/image/footer-bg.png);
 }
 .short-p{
     color: #8090B5;
@@ -92,7 +89,7 @@
     font-size: 20px;
     padding: 5px 10px;
     border: 1px solid black;
-    display: inline;
+    display: inline-block;
     border-radius: 25px;
     margin-bottom: 10px;
     background: #fff;
@@ -101,30 +98,31 @@
     font-size: 39px;
     margin-top: 15px;
     font-family: serif;
+    color: #BECFD0;
 }
 .para{
     font-size: 18px;
     font-weight: 600;
     margin-top: 25px;
+    color: #BECFD0;
 }
 .list-item{
     list-style-type: none;
     font-size: 18px;
     margin-top: 35px;
+    color: #BECFD0;
 }
 .services-list{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 20px;
-    border: 1px solid black;
+    column-gap: 15px;
 }
 .services-list .list img{
     width: 110px;
 }
 .services-list .list {
-    /* border: 1px solid rgb(214, 26, 26); */
     text-align: center;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 .about-me, .details{
     display: flex;
@@ -132,13 +130,36 @@
     margin-top: 12px;
 }
 .details{
-    margin-right: 60px;
+    margin-right: 10px;
+    border-right: 1px solid red;
+    padding-right: 50px;
 }
 .intro{
     margin-left: 10px;
+    color: #BECFD0;
 } 
 .details-btn{
     border-radius: 25px;
     background: #fff;
     color: #F52C2C;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.list{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 5px;
+}
+.services-details{
+    margin-top: 150px;
+}
+.custom-text-two{
+    color: #F52C2C;
+    font-family: serif;
+}
+.border-div{
+    border-left: 2px solid black;
 }
