@@ -80,17 +80,17 @@
 .services{
     display: flex;
     justify-content: space-between;
-    padding: 50px 20px;
+    padding: 2px 20px 150px;
     background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.815)), url(asset/image/footer-bg.png);
 }
 .short-p{
     color: #8090B5;
     /* width: 40%; */
-    font-size: 20px;
-    padding: 5px 10px;
+    font-size: 16px;
+    padding: 15px 30px;
     border: 1px solid black;
     display: inline-block;
-    border-radius: 25px;
+    border-radius: 30px;
     margin-bottom: 10px;
     background: #fff;
 }
@@ -101,16 +101,20 @@
     color: #BECFD0;
 }
 .para{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     margin-top: 25px;
     color: #BECFD0;
+    font-family: serif;
+    line-height: 25px;
+    font-weight: 500;
 }
 .list-item{
     list-style-type: none;
     font-size: 18px;
     margin-top: 35px;
     color: #BECFD0;
+    font-family: serif;
 }
 .services-list{
     display: grid;
@@ -144,17 +148,18 @@
     color: #F52C2C;
     margin-top: 15px;
     cursor: pointer;
+    font-size: 17px;
 }
 .list{
-    border: 1px solid black;
     height: 200px;
     width: 200px;
     padding: 50px;
     background-color: white;
     border-radius: 5px;
+    box-shadow: 1px 1px 3px #fff;
 }
 .services-details{
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .custom-text-two{
     color: #F52C2C;
@@ -163,3 +168,45 @@
 .border-div{
     border-left: 2px solid black;
 }
+
+/* --------Appoint area Start------- */
+
+.blog-container{
+    margin: 0 100px;
+}
+.appoint-area{
+    display: flex;
+    padding: 40px 0;
+    margin: -80px 0 50px;
+    background-color: #F52C2C;
+    border-radius: 10px;
+    color: #fff;
+}
+.p-icon{
+    font-size: 90px;
+    margin: 0 16px 0 25px;
+    color: black;
+}
+.number {
+    border-right: 2px solid black;
+    margin-right: 20px;
+    padding-right: 10px;
+}
+.contact-area{
+    display: flex;
+}
+.contact-details{
+    display: flex;
+
+}
+.contact-details p{
+    margin-top: 20px;
+}
+.appoint-btn{
+    margin: 23px 10px 0;
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 10px 40px;
+    border: 0;
+}
+
