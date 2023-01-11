@@ -209,4 +209,10 @@
     padding: 10px 40px;
     border: 0;
 }
-
+.blog-heading{
+    text-align: center;
+}
+.blog-heading h1{
+    font-size: 42px;
+    margin: 10px 0;
+}
